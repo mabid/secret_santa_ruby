@@ -4,7 +4,7 @@ After researching I realized the problem has many variants and multiple approach
 
 I have used a simple approach to solve the problem.
 
-#Approach:
+# Approach:
 
   - Create 2 lists of participants, one recievers the other senders.
   - Corresponding indexes give each others give, so person at position i in senders will give gift to person at position i in recievers
@@ -18,7 +18,7 @@ I have used a simple approach to solve the problem.
 
 This approach does not cater for the case when their is no solution, it will just keep on trying forever. I have tried to focus on the design and clean code rather than trying to capture all boundry cases.
 
-#How to Run
+# How to Run
 
 The code lives in a two classes in a single file santa.rb
   - s = SecretSantaRunner.new('file_name_to_read_input_from')
@@ -28,7 +28,7 @@ The code lives in a two classes in a single file santa.rb
 A sample runner is in runner.rb, so you can directly run 
   ``ruby runner.rb``
 
-#Tests
+# Tests
 
 - Rspec based tests are under /test
 - To run tests ``rspec ./``
