@@ -17,3 +17,18 @@ I have used a simple approach to solve the problem.
 
 
 This approach does not cater for the case when their is no solution, it will just keep on trying forever. I have tried to focus on the design and clean code rather than trying to capture all boundry cases.
+
+#How to Run
+
+The code lives in a two classes in a single file santa.rb
+  - s = SecretSantaRunner.new('file_name_to_read_input_from')
+  - s.assign_santas
+  - s.print_solution
+
+A sample runner is in runner.rb, so you can directly run 
+  ``ruby runner.rb``
+
+#Tests
+
+- Rspec based tests are under /test
+- To run tests ``rspec ./``
